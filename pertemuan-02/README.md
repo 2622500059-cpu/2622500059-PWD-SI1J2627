@@ -8,4 +8,4 @@
 ##Valisadi
 hasil: tidak ada galat
 ##GitHub Pages
-- URL:
+- URL: https://github.com/2622500059-cpu/2622500059-PWD-SI1J2627/tree/main/pertemuan-02
