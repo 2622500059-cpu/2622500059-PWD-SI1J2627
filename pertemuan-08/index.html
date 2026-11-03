@@ -1,1 +1,64 @@
-# pertemuan-08
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Profil Mahasiswa</h1>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="kartu">
+      <img src="img/foto-profil.jpg" alt="Foto profil" class="foto">
+      <h2>Halo, saya Dwi Kurnia Sari!</h2>
+      <p>Mahasiswa Program Studi Sistem Informasi.</p>
+      <p>Selamat datang di website profil saya.</p>
+    </section>
+
+    <section id="tentang" class="kartu">
+      <h2>Tentang Saya</h2>
+      <p><b>Nama:</b> Dwi Kurnia Sari</p>
+      <p><b>NIM:</b> 2622500059</p>
+      <p><b>Program Studi:</b> Sistem Informasi</p>
+      <p><b>Mata Kuliah:</b> Pemrograman Web Dasar</p>
+
+      <h3>Target Belajar</h3>
+      <ol>
+        <li>Memahami HTML.</li>
+        <li>Mempelajari CSS.</li>
+        <li>Membuat website sederhana.</li>
+      </ol>
+    </section>
+
+    <section id="kontak" class="kartu">
+      <h2>Kontak Saya</h2>
+      <p>Silakan kirim pesan melalui formulir berikut.</p>
+
+      <form id="formKontak">
+        <input type="text" placeholder="Nama lengkap" required>
+        <input type="email" placeholder="Alamat email" required>
+        <textarea placeholder="Tulis pesan Anda" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+
+      <p id="hasil"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dwi Kurnia Sari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
